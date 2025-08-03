@@ -9,14 +9,14 @@ class AIController extends Controller
 {
     public function showForm()
     {
-        return view('ai_form');
+        return view('ai-form');
     }
 
     public function generate(Request $request, AIService $aiService)
 {
     $validated = $request->validate([
         'destination' => 'required|string|max:100',
-        'budget' => 'required|string|in:low,medium,high', // assuming dropdown
+        'budget' => 'required|string|in:low,medium,high', // dropdown
         'days' => 'required|integer|min:1|max:30',
         'interests' => 'nullable|string|max:255', // optional: museums, food, etc.
     ]);
@@ -32,7 +32,7 @@ class AIController extends Controller
         $response = $aiService->generateText($prompt);
 
        
-        return view('ai_form', [
+        return view('ai-form', [
             'output' => $response,
             'input' => $validated, 
         ]);
