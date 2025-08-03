@@ -20,8 +20,8 @@ This Laravel app generates personalized travel itineraries using OpenAI’s GPT-
 5. Go to http://localhost:8000/ai-form in your browser!
 
 ## Screenshots 
-[Form screenshot](form-screenshot.png)
-[Output screenshot](output-screenshot.png)
+![Form screenshot](form-screenshot.png)
+![Output screenshot](output-screenshot.png)
 
 
 
