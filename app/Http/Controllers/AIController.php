@@ -16,9 +16,9 @@ class AIController extends Controller
 {
     $validated = $request->validate([
         'destination' => 'required|string|max:100',
-        'budget' => 'required|string|in:low,medium,high', // dropdown
+        'budget' => 'required|string|in:low,medium,high',
         'days' => 'required|integer|min:1|max:30',
-        'interests' => 'nullable|string|max:255', // optional: museums, food, etc.
+        'interests' => 'nullable|string|max:255', 
     ]);
 
     $prompt = "Create a travel itinerary for a {$validated['days']}-day trip to {$validated['destination']} on a {$validated['budget']} budget.";
