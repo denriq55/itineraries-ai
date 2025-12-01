@@ -21,12 +21,11 @@ This Laravel app generates personalized travel itineraries using OpenAI’s GPT-
 
 ## Screenshots && Live Demo
 Please click on the image below to watch a short video demo of the app in action:
-<a href="Loom Message - 1 December 2025 - Watch Video" target="blank"><img src="form-screenshot.png" alt="Video Demo: AI Travel Itinerary Generator" style="max-width: 100%;">
+<a href="https://www.loom.com/share/eb666cbf5f2f449ab9921e3297a9736c" target="blank"><img src="form-screenshot.png" alt="Video Demo: AI Travel Itinerary Generator" style="max-width: 100%;">
 </a>
 
 ![Output screenshot](output-screenshot.png)
 
-"
 
 
 
